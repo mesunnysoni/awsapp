@@ -10,7 +10,7 @@ const Login = () => {
           <div className="col-md-4"></div>
           <div className="col-md-4 justify-content-center align-self-center">
             <div className=" border border-1 border-info rounded-3 py-2 px-2">
-              <div className="row mb-4">
+              <div className="row mb-4 mt-1">
                 <div className="col-md-12 col-sm-12 text-center">
                   <img src={avatar} alt="" className="w-25 rounded-circle" />
                 </div>
@@ -27,7 +27,7 @@ const Login = () => {
                     aria-describedby="emailHelp"
                   />
                   <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
+                    We'll never share your email with anyone.
                   </div>
                 </div>
                 <div class="mb-3">
